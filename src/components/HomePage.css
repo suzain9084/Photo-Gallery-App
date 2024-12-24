@@ -1,0 +1,32 @@
+.home-page {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .photo-grid {
+   display: flex;
+   align-items: center;
+   height: auto;
+   gap: 10px;
+   width: 80vw;
+   margin: auto;
+  }
+  
+  .photo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    width: 19%;
+    overflow: hidden;
+    border: solid .001px rgb(186, 186, 186);
+  }
+  
+  .photo {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
